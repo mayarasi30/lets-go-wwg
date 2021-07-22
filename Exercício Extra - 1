@@ -1,0 +1,17 @@
+1 - Não compila pois tem o numero 8 junto com int
+
+2 -  Diz que não existe uma  variavel do tipo int8
+
+3 - 
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var quilometros int
+	quilometros = 150
+
+	fmt.Println(quilometros)
+}
