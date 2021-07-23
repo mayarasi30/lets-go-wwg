@@ -1,4 +1,7 @@
+1-Questão extra:
+
 1 - Não compila pois int8 não comporta o numero 150 
+
 
 2 -  Como só cabe 256 numeros é o int comporta numeros negativos e positivos 150 não está entre esses números.
 
@@ -15,3 +18,19 @@ func main() {
 
 	fmt.Println(quilometros)
 }
+2 - Questão Extra1-
+pacote principal
+
+importar (
+	"fmt"
+)
+
+func main () {
+	var nascimento int
+	nascimento = 1991
+
+	var idade = 2021-nascimento
+
+	fmt.Println (idade)
+}
+2-
