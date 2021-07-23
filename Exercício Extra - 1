@@ -1,6 +1,6 @@
-1 - Não compila pois tem o numero 8 junto com int
+1 - Não compila pois int8 não comporta o numero 150 
 
-2 -  Diz que não existe uma  variavel do tipo int8
+2 -  Como só cabe 256 numeros é o int comporta numeros negativos e positivos 150 não está entre esses números.
 
 3 - 
 package main
@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	var quilometros int
+	var quilometros uint8
 	quilometros = 150
 
 	fmt.Println(quilometros)
